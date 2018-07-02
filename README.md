@@ -11,6 +11,8 @@ Many famous sites have chosen Drupal as CMS:
 
 Drupal's Web Site: (https://www.drupal.org)
 
+For testing the APIs, I'll use this web site http://drupalapis.altervista.org/
+
 ### Views ###
 
 The term __View__ in Drupal displays all elemnts that matched with filtres. You can build a view with a specific module, or using the EntityFieldQuery API.
