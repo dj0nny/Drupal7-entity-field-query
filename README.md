@@ -9,7 +9,7 @@ Many famous sites have chosen Drupal as CMS:
 * CNN
 * Virgin
 
-Drupal's Web Site: (https://www.drupal.org)
+Drupal's Web Site: https://www.drupal.org
 
 For testing the APIs, I'll use this web site http://drupalapis.altervista.org/
 
