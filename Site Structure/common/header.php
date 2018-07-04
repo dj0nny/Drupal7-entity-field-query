@@ -8,7 +8,6 @@
             </a>
             <?php endif; ?>    
             </div>
-
             <div class="columns medium-9">
                 <div class="navigation-menu">
                     <?php 
