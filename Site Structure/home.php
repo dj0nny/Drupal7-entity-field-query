@@ -10,7 +10,12 @@
 
         <div class="page-body">
             <?php include('views/section_home.php'); ?>
-        </div>
+        </div> 
+        <?php
+            $block = block_load('block', '2');
+            $output = drupal_render(_block_get_renderable_array(_block_render_blocks(array($block))));
+            print $output;
+        ?>
         <div class="code">
         	<?php include('views/code.php'); ?>
         </div>

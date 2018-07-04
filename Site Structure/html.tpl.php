@@ -52,6 +52,7 @@
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
   <!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -68,6 +69,16 @@
     (function ($, Drupal, window, document, undefined) {
       $(document).foundation();
     })(jQuery, Drupal, this, this.document);
+  </script>
+
+  <script>
+    jQuery('#show').click(function() {
+      jQuery('.code').css("display", "block");
+    });
+
+    jQuery('#hide').click(function() {
+      jQuery('.code').css("display", "none");
+    });
   </script>
 </body>
 </html>
