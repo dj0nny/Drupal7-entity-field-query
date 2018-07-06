@@ -69,6 +69,12 @@
     (function ($, Drupal, window, document, undefined) {
       $(document).foundation();
     })(jQuery, Drupal, this, this.document);
+
+    jQuery(function(){
+      jQuery('.menu').slicknav({
+        label: ''
+      });
+    });
   </script>
 
   <script>
