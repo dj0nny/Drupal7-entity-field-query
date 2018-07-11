@@ -17,7 +17,7 @@
             print $output;
         ?>
         <div class="code">
-        	<?php include('views/code.php'); ?>
+        	<?php include('views/code_basic_page.php'); ?>
         </div>
     </div>
 </div>

@@ -15,7 +15,6 @@
 
         case '3':
             include('section1.php');
-            print($taxpage);
             break;
         
         default:
