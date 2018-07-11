@@ -12,9 +12,14 @@
         case '1':
             include("home.php");
             break;
+
+        case '3':
+            include('section1.php');
+            print($taxpage);
+            break;
         
         default:
-            # code...
+            print("taxonomy id not found");
             break;
     }
 ?>
