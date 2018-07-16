@@ -14,9 +14,19 @@ Drupal's Web Site: https://www.drupal.org
 For testing the APIs, I'll use this web site http://drupalapis.altervista.org/
 
 ### Site Structure ###
+- - - -
 
 Inside the __Site Structure__ folder there are the core elements of the site. Because I use Drupal's API, I have customized some pages.
 
 ### Views ###
+- - - -
 
 The term __View__ in Drupal displays all elemnts that matched with filtres. You can build a view with a specific module, or using the EntityFieldQuery API.
+
+### Content Type ###
+- - - -
+
+Drupal's content type describes how Drupal's site components are built. For example, my ___Basic Page___ content type is made in this way:
+
+
+
