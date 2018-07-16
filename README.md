@@ -28,5 +28,5 @@ The term __View__ in Drupal displays all elemnts that matched with filtres. You 
 
 Drupal's content type describes how Drupal's site components are built. For example, my ___Basic Page___ content type is made in this way:
 
-
+![picture alt](https://github.com/Dj0nny/Drupal-API/blob/master/img/content.png?raw=true)
 
