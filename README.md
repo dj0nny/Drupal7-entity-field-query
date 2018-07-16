@@ -34,20 +34,21 @@ As you can see, there is a ___field_structure___, with this field I can use a vo
 
 For this site, I use the following vocabulary:
 
-![picture alt](https://github.com/Dj0nny/Drupal-API/blob/master/img/content.png?raw=true)
+![picture alt](https://github.com/Dj0nny/Drupal-API/blob/master/img/taxonomy.png?raw=true)
 
 ### Get the site structure ###
 - - - -
 
 For getting the site structure, I use this PHP script:
 
-` 
+```
 <?php
     $nid = arg(1);
     $node = node_load($nid);
     $taxpage = $node->field_structure['und'][0]['tid'];
 ?>
-`
+```
+
 I get inside the ___nid___ variable the page structure (described by its content type), I load the node and then I access at the ___field_strcuture___ field, that is the ID of page's vocabulary term.
 
 Now I can switch throught it:
