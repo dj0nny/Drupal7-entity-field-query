@@ -53,7 +53,7 @@ I get inside the ___nid___ variable the page structure (described by its content
 
 Now I can switch throught it:
 
-`
+```
 <?php
     switch ($taxpage) {
         case '1':
@@ -69,6 +69,5 @@ Now I can switch throught it:
             break;
     }
 ?>
-
-`
+```
 
