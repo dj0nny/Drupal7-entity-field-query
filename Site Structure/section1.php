@@ -16,6 +16,10 @@
         print $output;
     ?>
     <div class="code">
-        <?php include('views/code_section.php'); ?>
+        <div class="row">
+            <div class="columns medium-12">
+                <?php print $node->field_code['und'][0]['value']; ?>
+            </div>
+        </div>
     </div>
 </div>

@@ -16,7 +16,11 @@
         case '3':
             include('section1.php');
             break;
-        
+
+        case '4':
+            include('section2.php');
+            break;
+    
         default:
             print("taxonomy id not found");
             break;
