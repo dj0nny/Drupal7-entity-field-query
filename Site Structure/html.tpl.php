@@ -75,6 +75,10 @@
         label: ''
       });
     });
+
+    jQuery('#gallery').lightGallery({
+      thumbnail:true
+    }); 
   </script>
 
   <script>
