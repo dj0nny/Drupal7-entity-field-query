@@ -6,6 +6,7 @@
     $node = node_load($nid);
     $taxpage = $node->field_structure['und'][0]['tid'];
 ?>
+
 <?php
     switch ($taxpage) {
         case '1':
@@ -19,7 +20,7 @@
         case '4':
             include('section2.php');
             break;
-
+        
         case '5':
             include('section3.php');
             break;
