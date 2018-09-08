@@ -8,7 +8,7 @@
     </div>
 
     <div class="page-body">
-        <?php include('views/gallery.php')?>
+        <?php include('views/events.php')?>
     </div>
     <?php
         $block = block_load('block', '2');
