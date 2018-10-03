@@ -19,3 +19,4 @@
         </div>  
     </div>
 </header>
+<?php include('slider.php'); ?>

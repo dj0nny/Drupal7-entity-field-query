@@ -75,10 +75,6 @@
         label: ''
       });
     });
-
-    jQuery('#gallery').lightGallery({
-      thumbnail:true
-    }); 
   </script>
 
   <script>
@@ -89,6 +85,14 @@
     jQuery('#hide').click(function() {
       jQuery('.code').css("display", "none");
     });
+  </script>
+
+  <script>
+    jQuery(document).ready(function(){
+      jQuery("#slider.owl-carousel").owlCarousel({
+      items:1
+    });
+  });
   </script>
 </body>
 </html>
